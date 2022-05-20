@@ -1,0 +1,70 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./bg2.jpg);
+    background-size: cover;
+    color: white;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 4rem;
+    align-items: center;
+}
+.weather-details{
+    width: 100%;
+}
+input{
+    width: 20rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.144);
+    color: white;
+    font-weight: 500;
+    font-size: 1.17em;
+}
+.btn{
+    height: 2.5rem;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    padding:  0 1rem;
+    background-color: rgba(0, 0, 0, 0.144);
+    color: white;
+    font-weight: 500;
+    font-size: 1.17em;
+    cursor: pointer;
+}
+.max-min{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.temp-min-max{
+    display: flex;
+    flex-direction: row;
+}
+.min-max{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between
+}
+.temp{
+    margin: 0;
+}
